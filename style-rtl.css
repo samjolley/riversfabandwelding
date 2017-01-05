@@ -1864,6 +1864,10 @@ Content Area
   background-color: #1c1c1c;
   color: #d9d9d9;
 }
+
+.home .site-inner {
+  display: none;
+}
 .entry-meta {
   color: #545454;
   font-size: 14px;

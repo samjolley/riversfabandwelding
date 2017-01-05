@@ -2029,6 +2029,10 @@ Content Area
   color: #d9d9d9;
 }
 
+.home .site-inner {
+  display: none;
+}
+
 /* ## Entry Meta
 --------------------------------------------- */
 .entry-meta {
