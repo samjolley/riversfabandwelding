@@ -1320,26 +1320,20 @@ Widgets
 }
 
 .home-gallery-1,
-.home-gallery-2,
-.home-gallery-3,
-.home-gallery-4 {
+.home-gallery-2 {
   text-align: center;
   width: 100%;
 }
 @media screen and (min-width: 810px) {
   .home-gallery-1,
-  .home-gallery-2,
-  .home-gallery-3,
-  .home-gallery-4 {
+  .home-gallery-2 {
     float: left;
     width: 50%;
   }
 }
 @media screen and (min-width: 1023px) {
   .home-gallery-1,
-  .home-gallery-2,
-  .home-gallery-3,
-  .home-gallery-4 {
+  .home-gallery-2 {
     float: left;
     width: 25%;
   }
