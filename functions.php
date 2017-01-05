@@ -49,16 +49,6 @@ function utility_pro_setup() {
 	// Add support for three footer widget areas.
 	add_theme_support( 'genesis-footer-widgets', 3 );
 
-	// Add support for additional color style options.
-	add_theme_support(
-		'genesis-style-selector',
-		array(
-			'utility-pro-purple' => __( 'Purple', 'utility-pro' ),
-			'utility-pro-green'  => __( 'Green', 'utility-pro' ),
-			'utility-pro-red'    => __( 'Red', 'utility-pro' ),
-		)
-	);
-
 	// Add support for structural wraps (all default Genesis wraps unless noted).
 	add_theme_support(
 		'genesis-structural-wraps',
