@@ -453,7 +453,7 @@ textarea {
 .button,
 .entry-content a.button,
 input[type="submit"] {
-  background: #7B0000;
+  background: #9D8979;
   border: 1px solid #D1D2D4;
   color: #D1D2D4;
   cursor: pointer;
@@ -1073,7 +1073,7 @@ img.alignnone,
 Widgets
 ---------------------------------------------------------------------------------------------------- */
 .utility-bar {
-  background-color: rgba(123, 0, 0, 0.9);
+  background-color: rgba(157, 137, 121, 0.9);
   border-bottom: 1px solid #d9d9d9;
   color: #D1D2D4;
   font-size: 14px;
@@ -1162,7 +1162,7 @@ Widgets
   }
 }
 .call-to-action-bar {
-  background: #6C6672;
+  background: #333333;
   color: #D1D2D4;
   padding: 40px 0;
   text-align: center;
@@ -1512,16 +1512,16 @@ div.gform_wrapper textarea:focus {
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-  color: #e0dbdf;
+  color: #c2c2c2;
 }
 
 .genesis-nav-menu .sub-menu a:hover,
 .genesis-nav-menu .sub-menu a:focus {
-  outline: #f0eef0 dotted thin;
+  outline: #d4d4d4 dotted thin;
 }
 
 .genesis-nav-menu .sub-menu .current-menu-item > a {
-  color: #e0dbdf;
+  color: #c2c2c2;
 }
 
 .genesis-nav-menu > .menu-item > a {
@@ -1534,7 +1534,7 @@ div.gform_wrapper textarea:focus {
 }
 
 .genesis-nav-menu .sub-menu {
-  background-color: #685865;
+  background-color: #454545;
   clear: both;
   display: none;
   opacity: 1;
@@ -1586,6 +1586,13 @@ div.gform_wrapper textarea:focus {
   .genesis-nav-menu .menu-item:hover {
     position: static;
   }
+}
+.genesis-nav-menu .last {
+  border: 2px solid #9D8979;
+}
+
+.genesis-nav-menu .last a {
+  padding-left: 15px;
 }
 .nav-primary,
 .nav-footer {
@@ -1675,7 +1682,7 @@ div.gform_wrapper textarea:focus {
 }
 .nav-primary,
 .nav-footer {
-  background-color: #685865;
+  background-color: #454545;
   text-align: center;
   width: 100%;
 }
@@ -1684,11 +1691,11 @@ div.gform_wrapper textarea:focus {
 .nav-primary .current-menu-item > a,
 .nav-footer a:hover,
 .nav-footer .current-menu-item > a {
-  color: #e0dbdf;
+  color: #c2c2c2;
 }
 
 .nav-primary .sub-menu a:hover {
-  color: #e0dbdf;
+  color: #c2c2c2;
 }
 .menu .menu-item:focus {
   position: static;
