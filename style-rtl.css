@@ -1222,7 +1222,7 @@ Widgets
   .home-gallery-1,
   .home-gallery-2 {
     float: right;
-    width: 25%;
+    width: 50%;
   }
 }
 .call-to-action-bar {
