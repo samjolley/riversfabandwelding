@@ -37,16 +37,16 @@ Site Navigation
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-	color: lighten($black, 56);
+	color: lighten($plum, 56);
 }
 
 .genesis-nav-menu .sub-menu a:hover,
 .genesis-nav-menu .sub-menu a:focus {
-	outline: lighten($black, 63) dotted thin;
+	outline: lighten($plum, 63) dotted thin;
 }
 
 .genesis-nav-menu .sub-menu .current-menu-item > a {
-	color: lighten($black, 56);
+	color: lighten($plum, 56);
 }
 
 .genesis-nav-menu > .menu-item > a {
@@ -58,7 +58,7 @@ Site Navigation
 }
 
 .genesis-nav-menu .sub-menu {
-	background-color: lighten($black, 7);
+	background-color: lighten($plum, 7);
 	clear: both;
 	display: none;
 	opacity: 1;
@@ -196,7 +196,7 @@ Site Navigation
 --------------------------------------------- */
 
 .site-header .sub-menu {
-	border-top: 1px solid lighten($black, 92);
+	border-top: 1px solid lighten($plum, 92);
 }
 
 .site-header .sub-menu .sub-menu {
@@ -208,7 +208,7 @@ Site Navigation
 
 .nav-primary,
 .nav-footer {
-	background-color: lighten($black, 7);
+	background-color: lighten($plum, 7);
 	text-align: center;
 	width: 100%;
 }
@@ -217,11 +217,11 @@ Site Navigation
 .nav-primary .current-menu-item > a,
 .nav-footer a:hover,
 .nav-footer .current-menu-item > a {
-	color: lighten($black, 56);
+	color: lighten($plum, 56);
 }
 
 .nav-primary .sub-menu a:hover {
-	color: lighten($black, 56);
+	color: lighten($plum, 56);
 }
 
 /* Dropdown Menu

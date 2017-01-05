@@ -247,101 +247,37 @@ input[type="search"] {
 Color Options
 If you've chosen your favorite color scheme, you can delete the others
 ---------------------------------------------------------------------------------------------------- */
-.utility-pro-purple .home-gallery .fa,
-.utility-pro-purple a,
-.utility-pro-purple .entry-content a {
-  color: #339;
+.utility-pro-winter-tones .home-gallery .fa,
+.utility-pro-winter-tones a,
+.utility-pro-winter-tones .entry-content a {
+  color: #7B0000;
 }
 
-.utility-pro-purple .sticky.entry {
-  border-top-color: #339;
+.utility-pro-winter-tones .sticky.entry {
+  border-top-color: #7B0000;
 }
 
-.utility-pro-purple .call-to-action-bar .button,
-.utility-pro-purple .button,
-.utility-pro-purple .entry-content .button,
-.utility-pro-purple input[type="submit"] {
-  background: #339;
-  border: 1px solid #fff;
-  color: #fff;
+.utility-pro-winter-tones .call-to-action-bar .button,
+.utility-pro-winter-tones .button,
+.utility-pro-winter-tones .entry-content .button,
+.utility-pro-winter-tones input[type="submit"] {
+  background: #7B0000;
+  border: 1px solid #D1D2D4;
+  color: #D1D2D4;
 }
 
-.utility-pro-purple .call-to-action-bar .button:hover,
-.utility-pro-purple .button:hover,
-.utility-pro-purple .entry-content .button:hover,
-.utility-pro-purple input[type="submit"]:hover {
-  background: #fff;
-  border: 1px solid #339;
-  color: #339;
+.utility-pro-winter-tones .call-to-action-bar .button:hover,
+.utility-pro-winter-tones .button:hover,
+.utility-pro-winter-tones .entry-content .button:hover,
+.utility-pro-winter-tones input[type="submit"]:hover {
+  background: #D1D2D4;
+  border: 1px solid #7B0000;
+  color: #7B0000;
 }
 
-.utility-pro-purple .utility-bar,
-.utility-pro-purple .site-footer {
-  background-color: rgba(51, 51, 153, 0.8);
-}
-.utility-pro-green .home-gallery .fa,
-.utility-pro-green a,
-.utility-pro-green .entry-content a {
-  color: #107952;
-}
-
-.utility-pro-green .sticky.entry {
-  border-top-color: #107952;
-}
-
-.utility-pro-green .call-to-action-bar .button,
-.utility-pro-green .button,
-.utility-pro-green .entry-content .button,
-.utility-pro-green input[type="submit"] {
-  background: #107952;
-  border: 1px solid #fff;
-  color: #fff;
-}
-
-.utility-pro-green .call-to-action-bar .button:hover,
-.utility-pro-green .button:hover,
-.utility-pro-green .entry-content .button:hover,
-.utility-pro-green input[type="submit"]:hover {
-  background: #fff;
-  border: 1px solid #107952;
-  color: #107952;
-}
-
-.utility-pro-green .utility-bar,
-.utility-pro-green .site-footer {
-  background-color: rgba(16, 121, 82, 0.9);
-}
-.utility-pro-red .home-gallery .fa,
-.utility-pro-red a,
-.utility-pro-red .entry-content a {
-  color: #d3131b;
-}
-
-.utility-pro-red .sticky.entry {
-  border-top-color: #d3131b;
-}
-
-.utility-pro-red .call-to-action-bar .button,
-.utility-pro-red .button,
-.utility-pro-red .entry-content .button,
-.utility-pro-red input[type="submit"] {
-  background: #d3131b;
-  border: 1px solid #fff;
-  color: #fff;
-}
-
-.utility-pro-red .call-to-action-bar .button:hover,
-.utility-pro-red .button:hover,
-.utility-pro-red .entry-content .button:hover,
-.utility-pro-red input[type="submit"]:hover {
-  background: #fff;
-  border: 1px solid #d3131b;
-  color: #d3131b;
-}
-
-.utility-pro-red .utility-bar,
-.utility-pro-red .site-footer {
-  background-color: rgba(211, 19, 27, 0.9);
+.utility-pro-winter-tones .utility-bar,
+.utility-pro-winter-tones .site-footer {
+  background-color: rgba(123, 0, 0, 0.9);
 }
 
 /* Defaults
@@ -350,9 +286,9 @@ If you've chosen your favorite color scheme, you can delete the others
 Defaults
 ---------------------------------------------------------------------------------------------------- */
 body {
-  background: #fff;
+  background: #D1D2D4;
   color: #545454;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Oswald", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.625;
@@ -376,12 +312,12 @@ textarea:focus,
 
 ::-moz-selection {
   background: #000;
-  color: #fff;
+  color: #D1D2D4;
 }
 
 ::selection {
   background: #000;
-  color: #fff;
+  color: #D1D2D4;
 }
 
 a {
@@ -424,7 +360,7 @@ blockquote {
 blockquote::before {
   content: "\201C";
   display: block;
-  font-family: Enriqueta, serif;
+  font-family: Slabo, serif;
   font-size: 120px;
   height: 0;
   right: -55px;
@@ -451,7 +387,7 @@ h4,
 h5,
 h6 {
   color: #1c1c1c;
-  font-family: Enriqueta, serif;
+  font-family: Slabo, serif;
   font-weight: 700;
   line-height: 1.25;
   margin: 0;
@@ -498,7 +434,7 @@ img {
 }
 input,
 textarea {
-  background: #fff;
+  background: #D1D2D4;
   border: 1px solid #d9d9d9;
   color: #545454;
   font-size: 14px;
@@ -517,9 +453,9 @@ textarea {
 .button,
 .entry-content a.button,
 input[type="submit"] {
-  background: #0964dd;
-  border: 1px solid #fff;
-  color: #fff;
+  background: #7B0000;
+  border: 1px solid #D1D2D4;
+  color: #D1D2D4;
   cursor: pointer;
   font-size: 16px;
   font-weight: 700;
@@ -535,8 +471,8 @@ input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus,
 .entry-content a.button:focus {
-  background-color: #fff;
-  color: #0964dd;
+  background-color: #6C6672;
+  color: #D1D2D4;
 }
 
 .button {
@@ -546,9 +482,9 @@ input:focus[type="submit"],
 .button:hover,
 .entry-content a.button:hover,
 input:hover[type="submit"] {
-  background-color: #fff;
-  border: 1px solid #0964dd;
-  color: #0964dd;
+  background-color: #D1D2D4;
+  border: 1px solid #7B0000;
+  color: #7B0000;
 }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -562,7 +498,7 @@ input[type="search"]::-webkit-search-results-button {
 
 .search-form [type="submit"] {
   background-color: transparent;
-  background: url(images/icon-search-rtl.png) no-repeat 25% 53% #fff;
+  background: url(images/icon-search-rtl.png) no-repeat 25% 53% #D1D2D4;
   border: 1px solid #d9d9d9;
   box-shadow: none;
   height: 53px;
@@ -632,7 +568,7 @@ th {
 }
 
 .table .table {
-  background-color: #fff;
+  background-color: #D1D2D4;
 }
 
 .table-condensed > thead > tr > th,
@@ -745,7 +681,7 @@ Structure and Layout
 }
 
 .sidebar .widget {
-  background: #fff;
+  background: #D1D2D4;
   border-top: 1px solid #1c1c1c;
   margin-bottom: 40px;
   padding: 40px;
@@ -1080,7 +1016,7 @@ img.alignnone,
   -moz-transition: all, 0.2s ease-in-out;
   transition: all, 0.2s ease-in-out;
   background: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  color: #D1D2D4;
   font-size: 12px;
   line-height: 1.65;
   max-height: 50%;
@@ -1137,9 +1073,9 @@ img.alignnone,
 Widgets
 ---------------------------------------------------------------------------------------------------- */
 .utility-bar {
-  background-color: rgba(9, 100, 221, 0.9);
+  background-color: rgba(123, 0, 0, 0.9);
   border-bottom: 1px solid #d9d9d9;
-  color: #fff;
+  color: #D1D2D4;
   font-size: 14px;
   margin: 0 auto;
   padding: 10px 0;
@@ -1148,7 +1084,7 @@ Widgets
 }
 
 .utility-bar a {
-  color: #fff;
+  color: #D1D2D4;
 }
 
 .utility-bar a:hover {
@@ -1157,7 +1093,7 @@ Widgets
 
 .utility-bar p,
 .utility-bar .widgettitle {
-  color: #fff;
+  color: #D1D2D4;
   margin: 0;
 }
 
@@ -1172,7 +1108,7 @@ Widgets
 }
 
 .home-welcome .widgettitle {
-  color: #fff;
+  color: #D1D2D4;
   text-transform: none;
 }
 @media screen and (min-width: 480px) {
@@ -1194,7 +1130,7 @@ Widgets
   }
 }
 .home-gallery {
-  background: #fff;
+  background: #D1D2D4;
   padding: 40px 0 20px;
 }
 
@@ -1226,9 +1162,8 @@ Widgets
   }
 }
 .call-to-action-bar {
-  background: #333333;
-  background: rgba(51, 51, 51, 0.8);
-  color: #fff;
+  background: #6C6672;
+  color: #D1D2D4;
   padding: 40px 0;
   text-align: center;
 }
@@ -1288,7 +1223,7 @@ Widgets
 }
 .footer-widgets {
   background: #1c1c1c;
-  color: #fff;
+  color: #D1D2D4;
   padding: 40px 0;
 }
 
@@ -1315,7 +1250,7 @@ Widgets
 }
 
 .footer-widgets a {
-  color: #fff;
+  color: #D1D2D4;
 }
 
 .footer-widgets a:hover {
@@ -1327,7 +1262,7 @@ Widgets
 }
 
 .footer-widgets .widgettitle {
-  color: #fff;
+  color: #D1D2D4;
   font-size: 20px;
 }
 
@@ -1362,7 +1297,7 @@ li a .fa {
 }
 
 .enews-widget a {
-  color: #fff;
+  color: #D1D2D4;
 }
 
 .enews-widget a:hover {
@@ -1370,7 +1305,7 @@ li a .fa {
 }
 
 .enews-widget .widgettitle {
-  color: #fff;
+  color: #D1D2D4;
   margin: 0;
 }
 
@@ -1389,11 +1324,11 @@ li a .fa {
 
 .sidebar .widget.enews-widget {
   background-color: #1c1c1c;
-  border-top: 1px solid #fff;
+  border-top: 1px solid #D1D2D4;
 }
 
 .sidebar .enews-widget .widget-wrap {
-  border-top: 5px solid #fff;
+  border-top: 5px solid #D1D2D4;
 }
 div.gform_wrapper input[type="email"],
 div.gform_wrapper input[type="text"],
@@ -1430,7 +1365,7 @@ div.gform_wrapper textarea:focus {
 /* # Site Header
 ---------------------------------------------------------------------------------------------------- */
 .site-header {
-  background: #fff;
+  background: #D1D2D4;
   border-bottom: 1px solid #d9d9d9;
 }
 
@@ -1461,7 +1396,7 @@ div.gform_wrapper textarea:focus {
 .site-title a:hover {
   border: 0;
   color: #1c1c1c;
-  font-family: Enriqueta, serif;
+  font-family: Slabo, serif;
   font-size: 28px;
 }
 
@@ -1565,7 +1500,7 @@ div.gform_wrapper textarea:focus {
 }
 
 .genesis-nav-menu a {
-  color: #fff;
+  color: #D1D2D4;
   display: inline-block;
   font-weight: 400;
   letter-spacing: 1px;
@@ -1577,16 +1512,16 @@ div.gform_wrapper textarea:focus {
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-  color: #8f8f8f;
+  color: #e0dbdf;
 }
 
 .genesis-nav-menu .sub-menu a:hover,
 .genesis-nav-menu .sub-menu a:focus {
-  outline: #a1a1a1 dotted thin;
+  outline: #f0eef0 dotted thin;
 }
 
 .genesis-nav-menu .sub-menu .current-menu-item > a {
-  color: #8f8f8f;
+  color: #e0dbdf;
 }
 
 .genesis-nav-menu > .menu-item > a {
@@ -1599,7 +1534,7 @@ div.gform_wrapper textarea:focus {
 }
 
 .genesis-nav-menu .sub-menu {
-  background-color: #121212;
+  background-color: #685865;
   clear: both;
   display: none;
   opacity: 1;
@@ -1668,7 +1603,7 @@ div.gform_wrapper textarea:focus {
 .footer-menu-toggle {
   background-color: transparent;
   border: 0;
-  color: #fff;
+  color: #D1D2D4;
   display: block;
   font-size: 18px;
   margin: 0 auto;
@@ -1689,7 +1624,7 @@ div.gform_wrapper textarea:focus {
 .sub-menu-toggle {
   background-color: transparent;
   border: 0;
-  color: #fff;
+  color: #D1D2D4;
   font-size: 14px;
   padding: 16px;
   position: absolute;
@@ -1732,7 +1667,7 @@ div.gform_wrapper textarea:focus {
   }
 }
 .site-header .sub-menu {
-  border-top: 1px solid #ebebeb;
+  border-top: 1px solid white;
 }
 
 .site-header .sub-menu .sub-menu {
@@ -1740,7 +1675,7 @@ div.gform_wrapper textarea:focus {
 }
 .nav-primary,
 .nav-footer {
-  background-color: #121212;
+  background-color: #685865;
   text-align: center;
   width: 100%;
 }
@@ -1749,11 +1684,11 @@ div.gform_wrapper textarea:focus {
 .nav-primary .current-menu-item > a,
 .nav-footer a:hover,
 .nav-footer .current-menu-item > a {
-  color: #8f8f8f;
+  color: #e0dbdf;
 }
 
 .nav-primary .sub-menu a:hover {
-  color: #8f8f8f;
+  color: #e0dbdf;
 }
 .menu .menu-item:focus {
   position: static;
@@ -1804,7 +1739,7 @@ Content Area
 }
 
 .entry {
-  background: #fff;
+  background: #D1D2D4;
   border-top: 1px solid #1c1c1c;
   margin-bottom: 40px;
   padding: 40px 40px 24px;
@@ -1910,23 +1845,23 @@ Content Area
 .pagination .nav-links a,
 .pagination .nav-links .current {
   background: #1c1c1c;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #D1D2D4;
+  color: #D1D2D4;
   cursor: pointer;
   display: inline-block;
   padding: 8px 12px;
 }
 
 .pagination .nav-links a:hover {
-  background: #fff;
+  background: #D1D2D4;
   border: 1px solid #1c1c1c;
   color: #1c1c1c;
 }
 
 .pagination .nav-links .current {
   background: #545454;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #D1D2D4;
+  color: #D1D2D4;
   cursor: none;
 }
 
@@ -1936,7 +1871,7 @@ Content Area
 .comment-respond,
 .entry-comments,
 .entry-pings {
-  background: #fff;
+  background: #D1D2D4;
   padding: 40px;
   margin-bottom: 40px;
 }
@@ -1986,15 +1921,15 @@ p.form-submit,
 /* Site Footer
 ---------------------------------------------------------------------------------------------------- */
 .site-footer {
-  background-color: rgba(9, 100, 221, 0.9);
-  color: #fff;
+  background-color: rgba(108, 102, 114, 0.9);
+  color: #D1D2D4;
   font-size: 14px;
   padding: 40px 0;
   text-align: center;
 }
 
 .site-footer a {
-  color: #fff;
+  color: #D1D2D4;
 }
 
 .site-footer a:hover {
@@ -2032,7 +1967,7 @@ Accessibility Extras - Taken from the Leiden theme & Genesis Accessible plugin (
 }
 
 .screen-reader-shortcut:focus {
-  background: #fff;
+  background: #D1D2D4;
   clip: auto;
   display: block;
   height: auto;
@@ -2190,7 +2125,7 @@ Print Media Query
 
   .table td,
   .table th {
-    background-color: #fff;
+    background-color: #D1D2D4;
   }
 
   .label {

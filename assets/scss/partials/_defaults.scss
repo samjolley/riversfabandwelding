@@ -184,7 +184,7 @@ textarea {
 .button,
 .entry-content a.button,
 input[type="submit"] {
-	background: $blue;
+	background: $red;
 	border: 1px solid $white;
 	color: $white;
 	cursor: pointer;
@@ -202,8 +202,8 @@ input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus,
 .entry-content a.button:focus {
-	background-color: $white;
-	color: $blue;
+	background-color: $grey;
+	color: $white;
 }
 
 .button {
@@ -214,8 +214,8 @@ input:focus[type="submit"],
 .entry-content a.button:hover,
 input:hover[type="submit"] {
 	background-color: $white;
-	border: 1px solid $blue;
-	color: $blue;
+	border: 1px solid $red;
+	color: $red;
 }
 
 input[type="search"]::-webkit-search-cancel-button,

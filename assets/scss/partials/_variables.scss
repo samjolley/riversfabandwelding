@@ -1,11 +1,14 @@
 // Colors
 $black: #000;
-$white: #fff;
+$white: #D1D2D4;
 
 $blue: #0964dd;
 $purple: #339;
 $green: #107952;
-$red: #d3131b;
+$red: #7B0000;
+$grey: #6C6672;
+$plum: #554852;
+
 
 
 $comments-background-color: $white;
@@ -37,9 +40,9 @@ $wrap-max-width-large: $max-width;
 
 // Global Font Families
 //------------------------------------------------------------------------------
-$sans-serif: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-serif: "Oswald", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $sans-serif-alt: Raleway, "Helvetica Neue", Helvetica, Arial, sans-s;
-$serif: Enriqueta, serif;
+$serif: Slabo, serif;
 $mono: "Courier 10 Pitch", Courier, monospace;
 // Base Font Families
 //------------------------------------------------------------------------------
