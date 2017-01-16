@@ -196,3 +196,6 @@ include get_stylesheet_directory() . '/includes/enqueue-assets.php';
 
 // Miscellaenous functions used in theme configuration.
 include get_stylesheet_directory() . '/includes/theme-config.php';
+
+// Add WooCommerce Support
+add_theme_support( 'genesis-connect-woocommerce' );
