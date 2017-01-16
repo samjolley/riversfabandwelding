@@ -4,7 +4,7 @@ Site Header
 
 .site-header {
 	background: $overlay;
-     opacity: 0.8;
+     opacity: 0.7;
 }
 
 .site-header .wrap {
@@ -120,15 +120,15 @@ Site Header
 }
 
 .header-widget-area .genesis-nav-menu a {
-	color: $black;
+	color: $white;
 }
 
 .header-widget-area .genesis-nav-menu a:hover,
 .header-widget-area .genesis-nav-menu .current-menu-item > a,
 .header-widget-area .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-	color: lighten($black, 33);
+	color: lighten($white, 33);
 }
 
 .header-widget-area .genesis-nav-menu .sub-menu a {
-	background-color: lighten($black, 92);
+	background-color: lighten($white, 92);
 }

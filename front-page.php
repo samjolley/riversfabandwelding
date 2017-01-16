@@ -96,7 +96,7 @@ function utility_pro_add_home_welcome() {
  */
 function utility_pro_add_home_gallery() {
 
-	printf( '<div %s>', genesis_attr( 'home-gallery' ) );
+	printf( '<div %s id="solutions">', genesis_attr( 'home-gallery' ) );
 	genesis_structural_wrap( 'home-gallery' );
 
 	genesis_widget_area(

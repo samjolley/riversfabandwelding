@@ -404,6 +404,13 @@ a:hover {
   color: #545454;
 }
 
+a.welcome {
+  border-bottom: none;
+  font-size: 16px;
+  padding-left: 20px;
+  color: #D1D2D4;
+}
+
 p {
   margin: 0 0 24px;
   padding: 0;
@@ -1205,7 +1212,7 @@ Widgets
 /* Home Welcome
 --------------------------------------------- */
 .home-welcome {
-  background-color: rgba(51, 51, 51, 0.8);
+  background-color: rgba(51, 51, 51, 0.7);
   padding: 40px 0;
   text-align: center;
 }
@@ -1495,7 +1502,7 @@ Site Header
 ---------------------------------------------------------------------------------------------------- */
 .site-header {
   background: #333333;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .site-header .wrap {
@@ -1600,17 +1607,17 @@ Site Header
 }
 
 .header-widget-area .genesis-nav-menu a {
-  color: #000;
+  color: #D1D2D4;
 }
 
 .header-widget-area .genesis-nav-menu a:hover,
 .header-widget-area .genesis-nav-menu .current-menu-item > a,
 .header-widget-area .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-  color: #545454;
+  color: white;
 }
 
 .header-widget-area .genesis-nav-menu .sub-menu a {
-  background-color: #ebebeb;
+  background-color: white;
 }
 
 /* # Site Navigation

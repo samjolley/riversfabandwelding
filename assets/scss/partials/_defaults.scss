@@ -56,6 +56,13 @@ a:hover {
 	color: lighten($black, 33);
 }
 
+a.welcome {
+	border-bottom: none;
+	font-size: $base-font-size;
+	padding-left: 20px;
+	color: $white;
+}
+
 p {
 	margin: 0 0 24px;
 	padding: 0;
