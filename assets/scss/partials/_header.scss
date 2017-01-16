@@ -3,8 +3,8 @@ Site Header
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header {
-	background: $white;
-	border-bottom: 1px solid lighten($black, 85);
+	background: $overlay;
+     opacity: 0.8;
 }
 
 .site-header .wrap {
@@ -36,13 +36,13 @@ Site Header
 .site-title a,
 .site-title a:hover {
 	border: 0;
-	color: lighten($black, 11);
+	color: $white;
 	font-family: $serif;
 	font-size: $site-title-font-size;
 }
 
 .site-description {
-	color: lighten($black, 33);
+	color: $white;
 	font-size: $base-font-size;
 	line-height: 1;
 	margin: 0;

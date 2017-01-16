@@ -1175,7 +1175,6 @@ Widgets
 --------------------------------------------- */
 .utility-bar {
   background-color: rgba(157, 137, 121, 0.9);
-  border-bottom: 1px solid #d9d9d9;
   color: #D1D2D4;
   font-size: 14px;
   margin: 0 auto;
@@ -1495,8 +1494,8 @@ div.gform_wrapper textarea:focus {
 Site Header
 ---------------------------------------------------------------------------------------------------- */
 .site-header {
-  background: #D1D2D4;
-  border-bottom: 1px solid #d9d9d9;
+  background: #333333;
+  opacity: 0.8;
 }
 
 .site-header .wrap {
@@ -1528,13 +1527,13 @@ Site Header
 .site-title a,
 .site-title a:hover {
   border: 0;
-  color: #1c1c1c;
+  color: #D1D2D4;
   font-family: Slabo, serif;
   font-size: 28px;
 }
 
 .site-description {
-  color: #545454;
+  color: #D1D2D4;
   font-size: 16px;
   line-height: 1;
   margin: 0;
