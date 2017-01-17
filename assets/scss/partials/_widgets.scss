@@ -165,9 +165,35 @@ Widgets
 }
 
 /* After Entry
+* Added in widget-areas.php
 --------------------------------------------- */
+.after-entry {
+	color: lighten($black, 79);
+	background-color: lighten($black, 11);
+	border-top: 1px solid $white;
+	text-align: center;
+	padding: 3em 3em 0;
+}
 
+.after-entry a {
+	color: $white;
+}
 
+.after-entry a.button {
+
+}
+
+.after-entry .widgettitle {
+	color: $white;
+	margin: 0;
+	padding: 1em 2em;
+}
+
+.after-entry .widget-wrap {
+	border-top: 5px solid $white;
+	padding: 2em;
+	margin-bottom: 3em;	
+}
 
 /*
 Footer Widgets

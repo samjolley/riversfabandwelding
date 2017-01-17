@@ -1341,7 +1341,32 @@ Widgets
 }
 
 /* After Entry
+* Added in widget-areas.php
 --------------------------------------------- */
+.after-entry {
+  color: #c9c9c9;
+  background-color: #1c1c1c;
+  border-top: 1px solid #D1D2D4;
+  text-align: center;
+  padding: 3em 3em 0;
+}
+
+.after-entry a {
+  color: #D1D2D4;
+}
+
+.after-entry .widgettitle {
+  color: #D1D2D4;
+  margin: 0;
+  padding: 1em 2em;
+}
+
+.after-entry .widget-wrap {
+  border-top: 5px solid #D1D2D4;
+  padding: 2em;
+  margin-bottom: 3em;
+}
+
 /*
 Footer Widgets
 ---------------------------------------------------------------------------------------------------- */

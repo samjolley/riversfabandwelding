@@ -42,6 +42,11 @@ function utility_pro_register_widget_areas() {
 			'name'        => __( 'Call to Action', 'utility-pro' ),
 			'description' => __( 'This is the Call to Action section on the home page.', 'utility-pro' ),
 		),
+		array(
+			'id'          => 'utility-testimonials',
+			'name'        => __( 'Testimonials', 'utility-pro' ),
+			'description' => __( 'This is the Testimonials section on the home page.', 'utility-pro' ),
+		),
 	);
 
 	$widget_areas = apply_filters( 'utility_pro_default_widget_areas', $widget_areas );
@@ -52,6 +57,7 @@ function utility_pro_register_widget_areas() {
 }
 
 // Add support for after entry widget
+// https://amethystwebsitedesign.com/add-genesis-after-entry-widget-to-pages-and-custom-post-types/
 add_theme_support( 'genesis-after-entry-widget-area' );
 
 // Remove after entry widget
@@ -65,7 +71,7 @@ function rfw_after_entry() {
         return;
 
         genesis_widget_area( 'after-entry', array(
-            'before' => '<div class="after-entry widget-area">',
+            'before' => '<div class="after-entry">',
             'after'  => '</div>',
         ) );
 
