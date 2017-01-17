@@ -151,6 +151,22 @@ function utility_pro_add_call_to_action() {
 }
 
 /**
+ * Display content for the "Testimonials" section.
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_testimonials() {
+
+	genesis_widget_area(
+		'utility-testimonials',
+		array(
+			'before' => '<div class="testimonials"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
+/**
  * Display latest posts instead of static page.
  *
  * @since 1.0.0
