@@ -321,7 +321,7 @@ textarea:focus,
 }
 
 a {
-  color: #0964dd;
+  color: #7B0000;
   border-bottom: 1px dotted;
   font-weight: 700;
   text-decoration: none;
@@ -1141,7 +1141,7 @@ Widgets
 }
 
 .home-gallery .fa {
-  color: #0964dd;
+  color: #7B0000;
 }
 
 .home-gallery .widget {
@@ -1227,6 +1227,9 @@ Widgets
   font-size: 18px;
   margin: 10px 0;
 }
+
+/* After Entry
+--------------------------------------------- */
 .footer-widgets {
   background: #1c1c1c;
   color: #D1D2D4;

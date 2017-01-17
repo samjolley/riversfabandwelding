@@ -50,3 +50,23 @@ function utility_pro_register_widget_areas() {
 		genesis_register_sidebar( $widget_area );
 	}
 }
+
+// Add support for after entry widget
+add_theme_support( 'genesis-after-entry-widget-area' );
+
+// Remove after entry widget
+remove_action( 'genesis_after_entry', 'genesis_after_entry_widget_area' );
+
+// Add after entry widget to posts and pages
+add_action( 'genesis_after_entry', 'rfw_after_entry', 9 );
+function rfw_after_entry() {
+
+   if ( ! is_singular( array( 'post', 'page' )) )
+        return;
+
+        genesis_widget_area( 'after-entry', array(
+            'before' => '<div class="after-entry widget-area">',
+            'after'  => '</div>',
+        ) );
+
+}

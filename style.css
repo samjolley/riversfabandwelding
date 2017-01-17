@@ -389,7 +389,7 @@ textarea:focus,
 }
 
 a {
-  color: #0964dd;
+  color: #7B0000;
   border-bottom: 1px dotted;
   font-weight: 700;
   text-decoration: none;
@@ -1248,7 +1248,7 @@ Widgets
 }
 
 .home-gallery .fa {
-  color: #0964dd;
+  color: #7B0000;
 }
 
 .home-gallery .widget {
@@ -1340,6 +1340,8 @@ Widgets
   margin: 10px 0;
 }
 
+/* After Entry
+--------------------------------------------- */
 /*
 Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
