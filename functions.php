@@ -199,6 +199,3 @@ include get_stylesheet_directory() . '/includes/theme-config.php';
 
 // Add WooCommerce Support
 add_theme_support( 'genesis-connect-woocommerce' );
-
-// Hook after header area
-add_action( 'genesis_after_header', 'bw_featured_image_title' );
