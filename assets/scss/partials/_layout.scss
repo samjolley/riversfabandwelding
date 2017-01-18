@@ -149,24 +149,3 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
 	}
 
 }
-
-/* Add featured image with title above entry content
-https://benweiser.com/add-a-featured-post-image-with-title-in-genesis/
---------------------------------------------- */
-
-.bw-featured-title {
-	background-size:cover;
-	background-repeat:no-repeat;
-	text-align:center;
-	width:100%;
-}
-
-.bw-featured-title .entry-header {
-	position: relative;
-	top: 50%;
-	transform:translateY(-50%);
-}
-
-.bw-featured-title h1.entry-title {
-	color:#fff;
-}
