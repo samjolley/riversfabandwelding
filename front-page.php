@@ -149,7 +149,7 @@ function utility_pro_add_home_testimonials() {
 	genesis_widget_area(
 		'utility-home-testimonials',
 		array(
-			'before' => '<div class="utility-home-testimonials"><div class="wrap">',
+			'before' => '<div class="utility-home-testimonials" id="testimonials"><div class="wrap">',
 			'after' => '</div></div>',
 		)
 	);
