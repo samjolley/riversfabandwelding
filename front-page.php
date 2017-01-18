@@ -19,8 +19,8 @@ function utility_pro_homepage_setup() {
 	$home_sidebars = array(
 		'home_welcome' 	   => is_active_sidebar( 'utility-home-welcome' ),
 		'home_gallery_1'   => is_active_sidebar( 'utility-home-gallery-1' ),
+		'home_testimonials'   => is_active_sidebar( 'utility-home-testimonials' ),				
 		'call_to_action'   => is_active_sidebar( 'utility-call-to-action' ),
-		'testimonials'   => is_active_sidebar( 'utility-testimonials' ),
 	);
 
 	// Return early if no sidebars are active.
@@ -44,13 +44,14 @@ function utility_pro_homepage_setup() {
 			add_action( 'genesis_after_header', 'utility_pro_add_home_gallery' );
 		}
 
+		// Add testimonials area if "Testimonials" widget area is active.
+		if ( $home_sidebars['home_testimonials'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_home_testimonials' );
+		}
+
 		// Add call to action area if "Call to Action" widget area is active.
 		if ( $home_sidebars['call_to_action'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_call_to_action' );
-		}
-		// Add testimonials area if "Testimonials" widget area is active.
-		if ( $home_sidebars['testimonials'] ) {
-			add_action( 'genesis_after_header', 'utility_pro_add_testimonials' );
 		}
 	}
 
@@ -140,6 +141,21 @@ function utility_pro_add_home_gallery() {
 }
 
 /**
+ * Display content for the "Testimonials" section.
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_home_testimonials() {
+	genesis_widget_area(
+		'utility-home-testimonials',
+		array(
+			'before' => '<div class="utility-home-testimonials"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
+/**
  * Display content for the "Call to action" section.
  *
  * @since 1.0.0
@@ -150,22 +166,6 @@ function utility_pro_add_call_to_action() {
 		'utility-call-to-action',
 		array(
 			'before' => '<div class="call-to-action-bar"><div class="wrap">',
-			'after' => '</div></div>',
-		)
-	);
-}
-
-/**
- * Display content for the "Testimonials" section.
- *
- * @since 1.0.0
- */
-function utility_pro_add_testimonials() {
-
-	genesis_widget_area(
-		'utility-testimonials',
-		array(
-			'before' => '<div class="testimonials"><div class="wrap">',
 			'after' => '</div></div>',
 		)
 	);

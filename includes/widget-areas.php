@@ -38,14 +38,14 @@ function utility_pro_register_widget_areas() {
 			'description' => sprintf( _x( 'Home Gallery %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 2 ),
 		),
 		array(
+			'id'          => 'utility-home-testimonials',
+			'name'        => __( 'Testimonials', 'utility-pro' ),
+			'description' => __( 'This is the Testimonials section on the home page.', 'utility-pro' ),
+		),
+		array(
 			'id'          => 'utility-call-to-action',
 			'name'        => __( 'Call to Action', 'utility-pro' ),
 			'description' => __( 'This is the Call to Action section on the home page.', 'utility-pro' ),
-		),
-		array(
-			'id'          => 'utility-testimonials',
-			'name'        => __( 'Testimonials', 'utility-pro' ),
-			'description' => __( 'This is the Testimonials section on the home page.', 'utility-pro' ),
 		),
 	);
 

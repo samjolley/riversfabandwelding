@@ -1250,6 +1250,24 @@ Widgets
   padding: 2em;
   margin-bottom: 3em;
 }
+.utility-home-testimonials {
+  background: #fff;
+  padding: 40px 0 20px;
+}
+
+.utility-home-testimonials .widget {
+  padding: 0 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.utility-home-testimonials .widgettitle {
+  text-align: center;
+}
+
+.ttshowcase_slider .bx-wrapper img {
+  display: none;
+}
 .footer-widgets {
   background: #1c1c1c;
   color: #D1D2D4;
