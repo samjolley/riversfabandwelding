@@ -67,7 +67,7 @@ remove_action( 'genesis_after_entry', 'genesis_after_entry_widget_area' );
 add_action( 'genesis_after_entry', 'rfw_after_entry', 9 );
 function rfw_after_entry() {
 
-   if ( ! is_singular( array( 'post', 'page' )) )
+   if ( ! is_singular( array( 'page' )) )
         return;
 
         genesis_widget_area( 'after-entry', array(
