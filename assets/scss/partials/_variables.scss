@@ -50,6 +50,7 @@ $sans-serif: "Oswald", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-ser
 $sans-serif-alt: Raleway, "Helvetica Neue", Helvetica, Arial, sans-s;
 $serif: Slabo, serif;
 $mono: "Courier 10 Pitch", Courier, monospace;
+$site-title: "Bilbo";
 // Base Font Families
 //------------------------------------------------------------------------------
 $base-font-family: $sans-serif;
@@ -57,11 +58,11 @@ $heading-font-family: $serif;
 $blockquote-font-family: $serif;
 // Base Font Sizes
 //------------------------------------------------------------------------------
-$base-font-size: 16px;
+$base-font-size: 19px;
 $base-line-height: 1.625;
 $heading-line-height: 1.25;
 $secondary-font-size: floor(modular-scale(-1, $base-font-size, $major-second));
-$site-title-font-size: floor(modular-scale(5, $base-font-size, $major-second));
+$site-title-font-size: floor(modular-scale(7, $base-font-size, $major-second));
 // Heading Font Properties
 //------------------------------------------------------------------------------
 $h1-font-size: floor(modular-scale(6, $base-font-size, $major-second));

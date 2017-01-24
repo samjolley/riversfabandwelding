@@ -37,7 +37,7 @@ Site Header
 .site-title a:hover {
 	border: 0;
 	color: $white;
-	font-family: $serif;
+	font-family: $site-title;
 	font-size: $site-title-font-size;
 }
 
@@ -46,6 +46,7 @@ Site Header
 	font-size: $base-font-size;
 	line-height: 1;
 	margin: 0;
+     display: none;
 }
 
 /* Full width header, no widgets */

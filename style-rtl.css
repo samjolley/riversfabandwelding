@@ -289,7 +289,7 @@ body {
   background: #D1D2D4;
   color: #545454;
   font-family: "Oswald", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 1.625;
   overflow-x: hidden;
@@ -338,7 +338,7 @@ a:hover {
 
 a.welcome {
   border-bottom: none;
-  font-size: 16px;
+  font-size: 19px;
   padding-right: 20px;
   color: #D1D2D4;
 }
@@ -403,27 +403,27 @@ h6 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 38px;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 34px;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 27px;
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 h6 {
-  font-size: 18px;
+  font-size: 21px;
 }
 embed,
 iframe,
@@ -444,7 +444,7 @@ textarea {
   background: #AEB0AF;
   border: 1px solid #d9d9d9;
   color: #545454;
-  font-size: 14px;
+  font-size: 16px;
   padding: 16px;
   width: 100%;
 }
@@ -464,7 +464,7 @@ input[type="submit"] {
   border: 1px solid #D1D2D4;
   color: #D1D2D4;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 700;
   letter-spacing: 1px;
   padding: 16px 24px;
@@ -673,7 +673,7 @@ Structure and Layout
   }
 }
 .sidebar {
-  font-size: 16px;
+  font-size: 19px;
 }
 
 .sidebar p:last-child,
@@ -857,7 +857,7 @@ img.alignnone,
 }
 
 .wp-caption-text {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   margin: 0;
   text-align: center;
@@ -1024,7 +1024,7 @@ img.alignnone,
   transition: all, 0.2s ease-in-out;
   background: rgba(0, 0, 0, 0.5);
   color: #D1D2D4;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.65;
   max-height: 50%;
   opacity: 0;
@@ -1061,7 +1061,7 @@ img.alignnone,
 }
 
 .author-box-title {
-  font-size: 22px;
+  font-size: 27px;
   margin-bottom: 10px;
 }
 
@@ -1082,7 +1082,7 @@ Widgets
 .utility-bar {
   background-color: rgba(157, 137, 121, 0.9);
   color: #D1D2D4;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 auto;
   padding: 10px 0;
   text-align: center;
@@ -1443,15 +1443,16 @@ div.gform_wrapper textarea:focus {
 .site-title a:hover {
   border: 0;
   color: #D1D2D4;
-  font-family: Slabo, serif;
-  font-size: 28px;
+  font-family: "Bilbo";
+  font-size: 43px;
 }
 
 .site-description {
   color: #D1D2D4;
-  font-size: 16px;
+  font-size: 19px;
   line-height: 1;
   margin: 0;
+  display: none;
 }
 .header-full-width .title-area,
 .header-full-width .site-title {
@@ -1679,7 +1680,7 @@ div.gform_wrapper textarea:focus {
   background-color: transparent;
   border: 0;
   color: #D1D2D4;
-  font-size: 14px;
+  font-size: 16px;
   padding: 16px;
   position: absolute;
   left: 0;
@@ -1773,7 +1774,7 @@ Content Area
 }
 
 .widgettitle {
-  font-size: 22px;
+  font-size: 27px;
   letter-spacing: 1px;
   margin: 10px 0 24px;
   text-transform: uppercase;
@@ -1859,7 +1860,7 @@ Content Area
 }
 .entry-meta {
   color: #545454;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .entry-header .entry-meta {
@@ -1969,7 +1970,7 @@ p.form-submit,
 }
 
 .form-allowed-tags {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* Site Footer
@@ -1977,7 +1978,7 @@ p.form-submit,
 .site-footer {
   background-color: rgba(108, 102, 114, 0.9);
   color: #D1D2D4;
-  font-size: 14px;
+  font-size: 16px;
   padding: 40px 0;
   text-align: center;
 }
