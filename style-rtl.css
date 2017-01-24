@@ -1404,6 +1404,16 @@ div.gform_wrapper input:focus,
 div.gform_wrapper textarea:focus {
   outline: 1px dotted #a1a1a1;
 }
+
+.gform_wrapper form .gform_body .ginput_complex input[type=text] {
+  width: 100% !important;
+}
+.gform_wrapper input, .gform_wrapper input[type=text], .gform_wrapper select, .gform_wrapper textarea {
+  width: 100% !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 #wpstats {
   display: none;
   visibility: hidden;
