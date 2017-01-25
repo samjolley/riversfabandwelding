@@ -1350,6 +1350,11 @@ Widgets
   text-align: center;
   padding: 3em 3em 0;
 }
+@media screen and (min-width: 1023px) {
+  .after-entry {
+    padding: 3em 1em 0;
+  }
+}
 
 .after-entry a {
   color: #D1D2D4;

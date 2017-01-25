@@ -173,6 +173,17 @@ Widgets
 	border-top: 1px solid $white;
 	text-align: center;
 	padding: 3em 3em 0;
+		@include media($medium-screen-up) {
+			padding: 3em 1em 0;
+	}
+	@include media($small-screen-up) {
+}
+	@include media($smaller-screen-up) {
+	}
+	@include media($smallest-screen-up) {
+	}
+	@include media($medium-screen-up) {
+	}
 }
 
 .after-entry a {
@@ -194,7 +205,6 @@ Widgets
 	padding: 2em;
 	margin-bottom: 3em;	
 }
-
 
 /* Testimonials Widget Area
 --------------------------------------------- */
