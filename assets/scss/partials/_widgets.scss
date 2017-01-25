@@ -175,15 +175,13 @@ Widgets
 	padding: 3em 3em 0;
 		@include media($medium-screen-up) {
 			padding: 3em 1em 0;
-	}
-	@include media($small-screen-up) {
-}
-	@include media($smaller-screen-up) {
-	}
-	@include media($smallest-screen-up) {
-	}
-	@include media($medium-screen-up) {
-	}
+		}
+		@include media($small-screen-up) {
+			padding: 3em 1em 0;
+		}
+		@include media($smaller-screen-up) {
+			padding: 3em 0.85em 0;
+		}
 }
 
 .after-entry a {
@@ -198,12 +196,20 @@ Widgets
 	color: $white;
 	margin: 0;
 	padding: 1em 2em;
+
+	@include media($smallest-screen-up) {
+		padding: 1em 0em;
+	}
 }
 
 .after-entry .widget-wrap {
 	border-top: 5px solid $white;
 	padding: 2em;
 	margin-bottom: 3em;	
+
+	@include media($smallest-screen-up) {
+		padding: .25em;
+	}
 }
 
 /* Testimonials Widget Area

@@ -1355,6 +1355,16 @@ Widgets
     padding: 3em 1em 0;
   }
 }
+@media screen and (min-width: 810px) {
+  .after-entry {
+    padding: 3em 1em 0;
+  }
+}
+@media screen and (min-width: 480px) {
+  .after-entry {
+    padding: 3em 0.85em 0;
+  }
+}
 
 .after-entry a {
   color: #D1D2D4;
@@ -1365,11 +1375,21 @@ Widgets
   margin: 0;
   padding: 1em 2em;
 }
+@media screen and (min-width: 320px) {
+  .after-entry .widgettitle {
+    padding: 1em 0em;
+  }
+}
 
 .after-entry .widget-wrap {
   border-top: 5px solid #D1D2D4;
   padding: 2em;
   margin-bottom: 3em;
+}
+@media screen and (min-width: 320px) {
+  .after-entry .widget-wrap {
+    padding: .25em;
+  }
 }
 
 /* Testimonials Widget Area
